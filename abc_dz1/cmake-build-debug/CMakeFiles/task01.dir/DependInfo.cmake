@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/main/CLionProjects/abc_dz1/bus.cpp" "/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/bus.cpp.o"
-  "/Users/main/CLionProjects/abc_dz1/car.cpp" "/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/car.cpp.o"
-  "/Users/main/CLionProjects/abc_dz1/container.cpp" "/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/container.cpp.o"
-  "/Users/main/CLionProjects/abc_dz1/main.cpp" "/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/main.cpp.o"
-  "/Users/main/CLionProjects/abc_dz1/truck.cpp" "/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/truck.cpp.o"
-  "/Users/main/CLionProjects/abc_dz1/vehicle.cpp" "/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/vehicle.cpp.o"
+  "/Users/main/Desktop/DZ_ABC_1/abc_dz1/bus.cpp" "/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/bus.cpp.o"
+  "/Users/main/Desktop/DZ_ABC_1/abc_dz1/car.cpp" "/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/car.cpp.o"
+  "/Users/main/Desktop/DZ_ABC_1/abc_dz1/container.cpp" "/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/container.cpp.o"
+  "/Users/main/Desktop/DZ_ABC_1/abc_dz1/main.cpp" "/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/main.cpp.o"
+  "/Users/main/Desktop/DZ_ABC_1/abc_dz1/truck.cpp" "/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/truck.cpp.o"
+  "/Users/main/Desktop/DZ_ABC_1/abc_dz1/vehicle.cpp" "/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/vehicle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -57,10 +57,10 @@ RM = /private/var/folders/3f/zdr9bx9916d5985j006hy68c0000gn/T/AppTranslocation/F
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/main/CLionProjects/abc_dz1
+CMAKE_SOURCE_DIR = /Users/main/Desktop/DZ_ABC_1/abc_dz1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/main/CLionProjects/abc_dz1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles /Users/main/CLionProjects/abc_dz1/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles /Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

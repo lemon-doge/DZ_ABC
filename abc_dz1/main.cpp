@@ -143,7 +143,7 @@ void get_input_file(int argc, char *argv[]) {
 void get_output_file(int argc, char *argv[]) {
     std::cout << "getting output file" << std::endl;
     if (flags_positions[OUTPUT] + 1 < argc) {
-        return output_file_stream.open(argv[flags_positions[OUTPUT] + 1], std::ofstream::out);
+        output_file_stream.open(argv[flags_positions[OUTPUT] + 1], std::ofstream::out);
     } else {
         std::cout << OUTPUT_FLAG_INVALID_EXCEPTION;
         exit(1);

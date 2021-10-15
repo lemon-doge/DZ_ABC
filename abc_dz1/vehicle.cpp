@@ -15,15 +15,15 @@ bool In(vehicle &v, std::ifstream &in_file_stream) {
             std::to_string(v.fuel_consumption);
 
     switch (k) {
-        case 't':
+        case vehicle::TRUCK:
             v.k = vehicle::TRUCK;
             In(v.t, in_file_stream);
             return true;
-        case 'b':
+        case vehicle::BUS:
             v.k = vehicle::BUS;
             In(v.b, in_file_stream);
             return true;
-        case 'c':
+        case vehicle::CAR:
             v.k = vehicle::CAR;
             In(v.c, in_file_stream);
             return true;
@@ -41,15 +41,15 @@ bool InRnd(vehicle &v) {
     v.fuel_consumption = rand() % 1000 + 1;
 
     switch (k) {
-        case 't':
+        case vehicle::TRUCK:
             v.k = vehicle::TRUCK;
             InRnd(v.t);
             return true;
-        case 'b':
+        case vehicle::BUS:
             v.k = vehicle::BUS;
             InRnd(v.b);
             return true;
-        case 'c':
+        case vehicle::CAR:
             v.k = vehicle::CAR;
             InRnd(v.c);
             return true;

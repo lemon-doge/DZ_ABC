@@ -42,6 +42,7 @@ void Out(container &c, std::ofstream &out_file_stream) {
     for (int i = 0; i < c.len; i++) {
         out_file_stream << i << ": ";
         Out(c.cont[i], out_file_stream);
+        out_file_stream << std::endl;
     }
 }
 
@@ -79,7 +80,7 @@ void CoolFilter(container &c) {
 void OrdinaryFilter(container &c) {
     std::cout << "filtering container" << std::endl;
     double average = DistanceAverage(c);
-    vehicle arr[c.len];
+    vehicle arr[container::max_len] = {};
     int arr_index = 0;
     for (int i = 0; i < c.len; ++i) {
         if (Range(c.cont[i]) > average) {
@@ -87,7 +88,7 @@ void OrdinaryFilter(container &c) {
             arr_index++;
         }
     }
-    c.len = arr_index + 1;
+    c.len = arr_index;
     for (int i = 0; i < c.len; ++i) {
         c.cont[i] = arr[i];
     }

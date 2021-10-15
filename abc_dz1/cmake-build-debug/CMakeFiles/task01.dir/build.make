@@ -53,10 +53,10 @@ RM = /private/var/folders/3f/zdr9bx9916d5985j006hy68c0000gn/T/AppTranslocation/F
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/main/CLionProjects/abc_dz1
+CMAKE_SOURCE_DIR = /Users/main/Desktop/DZ_ABC_1/abc_dz1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/main/CLionProjects/abc_dz1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/task01.dir/depend.make
@@ -68,81 +68,81 @@ include CMakeFiles/task01.dir/flags.make
 
 CMakeFiles/task01.dir/vehicle.cpp.o: CMakeFiles/task01.dir/flags.make
 CMakeFiles/task01.dir/vehicle.cpp.o: ../vehicle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task01.dir/vehicle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/vehicle.cpp.o -c /Users/main/CLionProjects/abc_dz1/vehicle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task01.dir/vehicle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/vehicle.cpp.o -c /Users/main/Desktop/DZ_ABC_1/abc_dz1/vehicle.cpp
 
 CMakeFiles/task01.dir/vehicle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task01.dir/vehicle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/CLionProjects/abc_dz1/vehicle.cpp > CMakeFiles/task01.dir/vehicle.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/Desktop/DZ_ABC_1/abc_dz1/vehicle.cpp > CMakeFiles/task01.dir/vehicle.cpp.i
 
 CMakeFiles/task01.dir/vehicle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task01.dir/vehicle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/CLionProjects/abc_dz1/vehicle.cpp -o CMakeFiles/task01.dir/vehicle.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/Desktop/DZ_ABC_1/abc_dz1/vehicle.cpp -o CMakeFiles/task01.dir/vehicle.cpp.s
 
 CMakeFiles/task01.dir/truck.cpp.o: CMakeFiles/task01.dir/flags.make
 CMakeFiles/task01.dir/truck.cpp.o: ../truck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task01.dir/truck.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/truck.cpp.o -c /Users/main/CLionProjects/abc_dz1/truck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task01.dir/truck.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/truck.cpp.o -c /Users/main/Desktop/DZ_ABC_1/abc_dz1/truck.cpp
 
 CMakeFiles/task01.dir/truck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task01.dir/truck.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/CLionProjects/abc_dz1/truck.cpp > CMakeFiles/task01.dir/truck.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/Desktop/DZ_ABC_1/abc_dz1/truck.cpp > CMakeFiles/task01.dir/truck.cpp.i
 
 CMakeFiles/task01.dir/truck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task01.dir/truck.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/CLionProjects/abc_dz1/truck.cpp -o CMakeFiles/task01.dir/truck.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/Desktop/DZ_ABC_1/abc_dz1/truck.cpp -o CMakeFiles/task01.dir/truck.cpp.s
 
 CMakeFiles/task01.dir/bus.cpp.o: CMakeFiles/task01.dir/flags.make
 CMakeFiles/task01.dir/bus.cpp.o: ../bus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task01.dir/bus.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/bus.cpp.o -c /Users/main/CLionProjects/abc_dz1/bus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task01.dir/bus.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/bus.cpp.o -c /Users/main/Desktop/DZ_ABC_1/abc_dz1/bus.cpp
 
 CMakeFiles/task01.dir/bus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task01.dir/bus.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/CLionProjects/abc_dz1/bus.cpp > CMakeFiles/task01.dir/bus.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/Desktop/DZ_ABC_1/abc_dz1/bus.cpp > CMakeFiles/task01.dir/bus.cpp.i
 
 CMakeFiles/task01.dir/bus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task01.dir/bus.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/CLionProjects/abc_dz1/bus.cpp -o CMakeFiles/task01.dir/bus.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/Desktop/DZ_ABC_1/abc_dz1/bus.cpp -o CMakeFiles/task01.dir/bus.cpp.s
 
 CMakeFiles/task01.dir/car.cpp.o: CMakeFiles/task01.dir/flags.make
 CMakeFiles/task01.dir/car.cpp.o: ../car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task01.dir/car.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/car.cpp.o -c /Users/main/CLionProjects/abc_dz1/car.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task01.dir/car.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/car.cpp.o -c /Users/main/Desktop/DZ_ABC_1/abc_dz1/car.cpp
 
 CMakeFiles/task01.dir/car.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task01.dir/car.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/CLionProjects/abc_dz1/car.cpp > CMakeFiles/task01.dir/car.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/Desktop/DZ_ABC_1/abc_dz1/car.cpp > CMakeFiles/task01.dir/car.cpp.i
 
 CMakeFiles/task01.dir/car.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task01.dir/car.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/CLionProjects/abc_dz1/car.cpp -o CMakeFiles/task01.dir/car.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/Desktop/DZ_ABC_1/abc_dz1/car.cpp -o CMakeFiles/task01.dir/car.cpp.s
 
 CMakeFiles/task01.dir/container.cpp.o: CMakeFiles/task01.dir/flags.make
 CMakeFiles/task01.dir/container.cpp.o: ../container.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task01.dir/container.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/container.cpp.o -c /Users/main/CLionProjects/abc_dz1/container.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task01.dir/container.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/container.cpp.o -c /Users/main/Desktop/DZ_ABC_1/abc_dz1/container.cpp
 
 CMakeFiles/task01.dir/container.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task01.dir/container.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/CLionProjects/abc_dz1/container.cpp > CMakeFiles/task01.dir/container.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/Desktop/DZ_ABC_1/abc_dz1/container.cpp > CMakeFiles/task01.dir/container.cpp.i
 
 CMakeFiles/task01.dir/container.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task01.dir/container.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/CLionProjects/abc_dz1/container.cpp -o CMakeFiles/task01.dir/container.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/Desktop/DZ_ABC_1/abc_dz1/container.cpp -o CMakeFiles/task01.dir/container.cpp.s
 
 CMakeFiles/task01.dir/main.cpp.o: CMakeFiles/task01.dir/flags.make
 CMakeFiles/task01.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task01.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/main.cpp.o -c /Users/main/CLionProjects/abc_dz1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task01.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task01.dir/main.cpp.o -c /Users/main/Desktop/DZ_ABC_1/abc_dz1/main.cpp
 
 CMakeFiles/task01.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task01.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/CLionProjects/abc_dz1/main.cpp > CMakeFiles/task01.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/main/Desktop/DZ_ABC_1/abc_dz1/main.cpp > CMakeFiles/task01.dir/main.cpp.i
 
 CMakeFiles/task01.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task01.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/CLionProjects/abc_dz1/main.cpp -o CMakeFiles/task01.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/main/Desktop/DZ_ABC_1/abc_dz1/main.cpp -o CMakeFiles/task01.dir/main.cpp.s
 
 # Object files for target task01
 task01_OBJECTS = \
@@ -164,7 +164,7 @@ task01_EXTERNAL_OBJECTS =
 ../bin/task01: CMakeFiles/task01.dir/main.cpp.o
 ../bin/task01: CMakeFiles/task01.dir/build.make
 ../bin/task01: CMakeFiles/task01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/task01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/task01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -176,6 +176,6 @@ CMakeFiles/task01.dir/clean:
 .PHONY : CMakeFiles/task01.dir/clean
 
 CMakeFiles/task01.dir/depend:
-	cd /Users/main/CLionProjects/abc_dz1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/main/CLionProjects/abc_dz1 /Users/main/CLionProjects/abc_dz1 /Users/main/CLionProjects/abc_dz1/cmake-build-debug /Users/main/CLionProjects/abc_dz1/cmake-build-debug /Users/main/CLionProjects/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/main/Desktop/DZ_ABC_1/abc_dz1 /Users/main/Desktop/DZ_ABC_1/abc_dz1 /Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug /Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug /Users/main/Desktop/DZ_ABC_1/abc_dz1/cmake-build-debug/CMakeFiles/task01.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/task01.dir/depend
 
