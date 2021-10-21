@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/main/Desktop/DZ_ABC_1/abc_dz1/bus.h
+fstream
+-
+
+/Users/main/Desktop/DZ_ABC_1/abc_dz1/car.h
+fstream
+-
+
+/Users/main/Desktop/DZ_ABC_1/abc_dz1/container.cpp
+iostream
+-
+container.h
+/Users/main/Desktop/DZ_ABC_1/abc_dz1/container.h
+
+/Users/main/Desktop/DZ_ABC_1/abc_dz1/container.h
+vehicle.h
+/Users/main/Desktop/DZ_ABC_1/abc_dz1/vehicle.h
+
+/Users/main/Desktop/DZ_ABC_1/abc_dz1/truck.h
+fstream
+-
+
+/Users/main/Desktop/DZ_ABC_1/abc_dz1/vehicle.h
+fstream
+-
+truck.h
+/Users/main/Desktop/DZ_ABC_1/abc_dz1/truck.h
+car.h
+/Users/main/Desktop/DZ_ABC_1/abc_dz1/car.h
+bus.h
+/Users/main/Desktop/DZ_ABC_1/abc_dz1/bus.h
+
