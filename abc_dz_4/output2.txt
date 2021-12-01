@@ -1,0 +1,5 @@
+Container filtered. Filtration time = 7.09999e-05
+Container contains 3 elements.
+0: BUS: fuel tank capacity = 23, fuel consumption = 4.500000, passenger capacity = 5
+1: TRUCK: fuel tank capacity = 55, fuel consumption = 5.000000, carrying capacity = 5
+2: TRUCK: fuel tank capacity = 33, fuel consumption = 2.000000, carrying capacity = 4

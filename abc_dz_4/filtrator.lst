@@ -1,0 +1,77 @@
+     1                                  ;------------------------------------------------------------------------------
+     2                                  ; filtrator.asm - единица компиляции, вбирающая функции фильтрации массива
+     3                                  ;------------------------------------------------------------------------------
+     4                                  
+     5                                  extern CAR
+     6                                  extern BUS
+     7                                  extern TRUCK
+     8                                  
+     9                                  ;----------------------------------------------
+    10                                  ; Вычисление запаса хода машины
+    11                                  ;double getRange(void *vehicle) {
+    12                                  ;    int fuel_tank_capacity = *((int*)(vehicle+intSize))
+    13                                  ;    float fuel_consumption = *((float*)(vehicle+2*intSize))
+    14                                  ;    return fuel_tank_capacity/fuel_consumption;
+    15                                  ;}
+    16                                  global getRange
+    17                                  getRange:
+    18                                  section .text
+    19 00000000 55                      push rbp
+    20 00000001 4889E5                  mov rbp, rsp
+    21                                  
+    22                                      ; В rdi адрес машины
+    23 00000004 4883C704                    add rdi, 4  ; skipping the key, rdi now points to int fuel tank capacity
+    24 00000008 F30F2A07                    cvtsi2ss xmm0, [rdi]  ; converting int capacity to float
+    25 0000000C 4883C704                    add rdi, 4  ; skipping the capacity, rdi now points to float fuel consumption
+    26 00000010 F30F100F                    movss xmm1, [rdi]  ; moving rdi to appropriate register
+    27 00000014 F30F5EC1                    divss xmm0, xmm1 ; calculating range
+    28                                  
+    29                                      ;supposed to return contents of xmm0
+    30 00000018 C9                      leave
+    31 00000019 C3                      ret
+    32                                  
+    33                                  ;----------------------------------------------
+    34                                  ;// Вычисление среднего запаса хода по контейнеру
+    35                                  ;float getAverageRange(void *c, int len) {
+    36                                  ;    double sum = 0.0;
+    37                                  ;    void *tmp = c;
+    38                                  ;    for(int i = 0; i < len; i++) {
+    39                                  ;        sum += getRange(tmp);
+    40                                  ;        tmp = tmp + shapeSize;
+    41                                  ;    }
+    42                                  ;    return sum/len;
+    43                                  ;}
+    44                                  global getAverageRange
+    45                                  getAverageRange:
+    46                                  section .data
+    47 00000000 00000000                    .sum    dd  0.0
+    48                                  section .text
+    49 0000001A 55                      push rbp
+    50 0000001B 4889E5                  mov rbp, rsp
+    51                                  
+    52                                      ; В rdi адрес начала контейнера
+    53                                      ; В rsi длина контейнера
+    54 0000001E 4889F3                      mov rbx, rsi            ; сохраняем длину
+    55 00000021 4831C9                      xor rcx, rcx            ; обнуляем текущий шаг
+    56 00000024 F30F101425-                 movss xmm2, [.sum]      ; перенос накопителя суммы в регистр 2
+    56 00000029 [00000000]         
+    57                                  .loop:
+    58 0000002D 4839D9                      cmp rcx, rbx            ; проверка на окончание цикла
+    59 00000030 7D18                        jge .return             ; перебрали все фигуры - прыгаем на возврат
+    60                                  
+    61 00000032 4989FA                      mov r10, rdi            ; сохранение начала фигуры
+    62 00000035 E8C6FFFFFF                  call getRange           ; Получение периметра первой фигуры
+    63 0000003A F30F58D0                    addss xmm2, xmm0        ; накопление суммы
+    64 0000003E 48FFC1                      inc rcx                 ; добавили шаг
+    65 00000041 4983C210                    add r10, 16             ; адрес следующей фигуры
+    66 00000045 4C89D7                      mov rdi, r10            ; восстановление для передачи параметра
+    67                                      ; последние 3 строчки можно было заменить на add rdi, 4 ::stone
+    68 00000048 EBE3                        jmp .loop
+    69                                  .return:
+    70 0000004A F30F10C2                    movss xmm0, xmm2        ; перенесли сумму в 0й float регистр
+    71 0000004E F3480F2ACB                  cvtsi2ss xmm1, rbx      ; конвертировали кол-во машин во float и положили в 1й регистр
+    72 00000053 F30F5EC1                    divss xmm0, xmm1        ; получили среднее значение
+    73                                  
+    74                                      ; вернет значение в xmm0
+    75 00000057 C9                      leave
+    76 00000058 C3                      ret

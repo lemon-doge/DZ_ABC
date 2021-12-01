@@ -1,0 +1,12 @@
+Filled container:
+Container contains 10 elements.
+0: BUS: fuel tank capacity = 23, fuel consumption = 4.500000, passenger capacity = 5
+1: TRUCK: fuel tank capacity = 3, fuel consumption = 55.500000, carrying capacity = 3
+2: CAR: fuel tank capacity = 66, fuel consumption = 66.000000, speed limit = 7
+3: BUS: fuel tank capacity = 2, fuel consumption = 3.000000, passenger capacity = 4
+4: CAR: fuel tank capacity = 1, fuel consumption = 1.000000, speed limit = 1
+5: BUS: fuel tank capacity = 2, fuel consumption = 3.000000, passenger capacity = 7
+6: TRUCK: fuel tank capacity = 55, fuel consumption = 5.000000, carrying capacity = 5
+7: TRUCK: fuel tank capacity = 33, fuel consumption = 2.000000, carrying capacity = 4
+8: CAR: fuel tank capacity = 1, fuel consumption = 2.000000, speed limit = 3
+9: TRUCK: fuel tank capacity = 99, fuel consumption = 99.000000, carrying capacity = 99
