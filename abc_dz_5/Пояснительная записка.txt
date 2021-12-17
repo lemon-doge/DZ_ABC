@@ -1,0 +1,36 @@
+Пояснительная записка к ДЗ5.
+Татьянченко Дмитрий БПИ207.
+Задание 6.
+
+Текст задания 6:
+Задача про экзамен. Преподаватель проводит экзамен у группы студентов. Каждый студент получает свой билет, сообщает его номер и готовит письменный ответ. Подготовив ответ, он передает его преподавателю. Преподаватель просматривает ответ и сообщает студенту оценку. Требуется создать многопоточное приложение, моделирующее действия преподавателя и студентов. При решении использовать парадигму «клиент-сервер».
+
+Использование программы ограничено считыванием с консоли ко-ва студентов и выводом отчета о сданных ответах и полученных оценках.
+
+
+Идейно решение задачи 26:
+Студентам присвоены id
+На сервер лежит массив с такими же индексами
+Студенты отсылают свои ответы и они пишутся в этот массив по индексам (асинхронно)
+Студенты посылают запрос на сервер для получения резов 
+Старый выдает сумму квадратов варианта и ответа по модулю 10 в зависимости от id 
+После этого можно забрать результаты с каждого из студентов и с сервера и сравнить их
+Все счастливы
+
+Интересные замечания:
+Используется минимум синхронизации (только внутренние реализации) - при этом все потокобезопасно из-за специфики работы массивов в с++. 
+
+[1]:
+https://stackoverflow.com/questions/13955634/thread-safety-of-writing-a-stdvector-vs-plain-array
+
+For c++11, which specifies rules for data races, the thread-safety of containers is described. A relevant section of the standard is § 23.2.2, paragraph 2:
+
+Notwithstanding (17.6.5.9), implementations are required to avoid data races when the contents of the contained object in different elements in the same sequence, excepting vector<bool>, are modified concurrently.
+
+[ Note: For a vector<int> x with a size greater than one, x[1] = 5 and *x.begin() = 10 can be executed concurrently without a data race, but x[0] = 5 and *x.begin() = 10 executed concurrently may result in a data race. As an exception to the general rule, for a vector<bool> y, y[0] = true may race with y[1] = true. —end note ]
+
+The mentioned § 17.6.5.9 essentially bans any concurrent modification by any standard library interface unless specifically allowed, so the section I quote tells you exactly what's allowed (and that includes your usage).
+
+Since the question was raised by Steve Jessop, paragraph 1 of § 23.2.2 explicitly allows the concurrent use of [] in sequence containers:
+
+For purposes of avoiding data races (17.6.5.9), implementations shall consider the following functions to be const: begin, end, rbegin, rend, front, back, data, find, lower_bound, upper_bound, equal_range, at and, except in associative or unordered associative containers, operator[].

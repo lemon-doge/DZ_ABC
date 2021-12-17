@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/main/CLionProjects/ABC_DZ5/Student.cpp
+thread
+-
+future
+-
+Student.h
+/Users/main/CLionProjects/ABC_DZ5/Student.h
+
+/Users/main/CLionProjects/ABC_DZ5/Student.h
+thread
+-
+Teacher.h
+/Users/main/CLionProjects/ABC_DZ5/Teacher.h
+
+/Users/main/CLionProjects/ABC_DZ5/Teacher.cpp
+Teacher.h
+/Users/main/CLionProjects/ABC_DZ5/Teacher.h
+
+/Users/main/CLionProjects/ABC_DZ5/Teacher.h
+
+/Users/main/CLionProjects/ABC_DZ5/main.cpp
+iostream
+-
+vector
+-
+Student.h
+/Users/main/CLionProjects/ABC_DZ5/Student.h
+Teacher.h
+/Users/main/CLionProjects/ABC_DZ5/Teacher.h
+Student.cpp
+/Users/main/CLionProjects/ABC_DZ5/Student.cpp
+Teacher.cpp
+/Users/main/CLionProjects/ABC_DZ5/Teacher.cpp
+
